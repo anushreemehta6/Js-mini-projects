@@ -1,0 +1,50 @@
+:root {
+  background-color: bisque;
+  font-size: larger;
+  text-align: center;
+}
+
+.login-form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 50vh;
+  width: 50vw;
+  color: white;
+  border: 5px solid black;
+  padding: 8px;
+  background-color: brown;
+  border-radius: 8px;
+}
+
+.input-email,.input-password {
+  background-color: bisque;
+  border: 0px;
+  border-radius: 8px;
+  width: 20vw;
+  height: 5vh;
+}
+
+.outer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn {
+  font-size: large;
+  padding: 12px 8px 12px 8px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.error-mess{
+    display:none;
+    font-size:larger;
+    text-align: center;
+    color:red;
+}
